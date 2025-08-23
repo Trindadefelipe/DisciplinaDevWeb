@@ -1,0 +1,36 @@
+/*Seletor de elementos*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(1, 90, 35);
+}
+
+/*Seletor de id*/
+#primeiro_paragrafo {
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+
+/*Seletor de classe*/
+.importante{
+    background-color: rgb(0, 81, 24);
+}
+
+li{
+    color: aliceblue;
+    background-color: rgb(0, 203, 88);
+    text-align: center;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.space{
+    padding: 0.9rem;
+}
