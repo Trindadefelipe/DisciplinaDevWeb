@@ -1,0 +1,27 @@
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(234, 234, 234);
+}
+
+h1 {
+    text-align: center;
+}
+
+.formulario {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 7rem;
+    text-align: center;
+    padding: 1rem;
+    border-style: solid;
+    background-color: white;
+}
+
+input {
+    margin-bottom: 1rem;
+    padding: 0.2rem;
+}
