@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Alerta de Segurança</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <style>
+    #alerta {
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-7  text-center">
+        <h1 class="display-3">Sistema de Alerta</h1>
+        <div class="p-5 bg-black w-50 h-100 my-3 rounded" name="fundo" id="alerta"></div>
+        <button class="btn btn-warning" onclick="ligar()">Ativar Alerta</button>
+        <button class="btn btn-success" onclick="desativar()">Desativar Alerta</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function ligar(){
+      document.getElementById('alerta').className = ('p-5 bg-danger w-50 h-100 my-3 rounded');
+    }
+    function desativar(){
+      document.getElementById('alerta').className = ('p-5 bg-black w-50 h-100 my-3 rounded');
+    }
+  </script>
+</body>
+</html>
